@@ -12,10 +12,10 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'GS Kick-Start',
-    'description' => '',
+    'description' => 'GS Kick-Start allows you to install a customized Distribution.',
     'category' => 'distribution',
-    'author' => '',
-    'author_email' => '',
+    'author' => 'Simon Gilli',
+    'author_email' => 'typo3@gilbertsoft.org',
     'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
@@ -24,9 +24,17 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '0.0.1',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-7.6.99',
+            'typo3' => '6.2.0-8.99.99',
         ],
         'conflicts' => [],
-        'suggests' => [],
+        'suggests' => [
+        	'introduction' => '*',
+        	'aimeos_dist' => '*',
+        	'gsprotectedconfig' => '*',
+        	'gsfavicon' => '*',
+        	'aimeos' => '*',
+        	'bootstrap_package' => '*',
+        	'realurl' => '*',
+        ],
     ],
 ];
