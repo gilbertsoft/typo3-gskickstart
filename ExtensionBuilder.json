@@ -2,11 +2,11 @@
     "modules": [],
     "properties": {
         "backendModules": [],
-        "description": "",
+        "description": "GS Kick-Start allows you to install a customized Distribution.",
         "emConf": {
             "category": "distribution",
             "custom_category": "",
-            "dependsOn": "typo3 => 7.6.0-7.6.99\n",
+            "dependsOn": "typo3 => 6.2.0-8.99.99\n",
             "disableLocalization": true,
             "disableVersioning": true,
             "skipGenerateDocumentationTemplate": true,
@@ -17,16 +17,23 @@
         },
         "extensionKey": "gskickstart",
         "name": "GS Kick-Start",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
-        "persons": [],
+        "originalExtensionKey": "gskickstart",
+        "originalVendorName": "Gilbertsoft",
+        "persons": [
+            {
+                "company": "Gilbertsoft",
+                "email": "typo3@gilbertsoft.org",
+                "name": "Simon Gilli",
+                "role": "Developer"
+            }
+        ],
         "plugins": [],
         "vendorName": "Gilbertsoft"
     },
     "wires": [],
     "log": {
-        "last_modified": "2017-03-11 08:44",
+        "last_modified": "2017-03-11 09:08",
         "extension_builder_version": "7.6.16",
-        "be_user": " (1)"
+        "be_user": "Simon Gilli (1)"
     }
 }
