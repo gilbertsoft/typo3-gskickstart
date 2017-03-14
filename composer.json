@@ -1,0 +1,25 @@
+{
+	"name": "gilbertsoft/gskickstart",
+	"type": "typo3-cms-extension",
+	"description": "GS Kick-Start allows you to install a customized Distribution.",
+	"homepage": "https://github.com/gilbertsoft/typo3-gskickstart",
+	"license": ["GPL-3.0+"],
+	"keywords": ["TYPO3 CMS", "Gilbertsoft"],
+	"support": {
+		"issues": "https://github.com/gilbertsoft/typo3-gskickstart/issues"
+	},
+	"require": {
+		"typo3/cms-core": "^6.2.0 || ^7.6.0 || ^8.6.0",
+		"typo3/cms-backend": "^6.2.0 || ^7.6.0 || ^8.6.0",
+		"typo3/cms-t3skin": "^6.2.0 || ^7.6.0 || ^8.6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Gilbertsoft\\KickStart\\": "Classes"
+		}
+	},
+	"replace": {
+		"gskickstart": "self.version",
+		"typo3-ter/gskickstart": "self.version"
+	}
+}
